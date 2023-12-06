@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trabook</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,500&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <div class="col-6-sm col-2-lg">
+            <a class="navbar-brand" href="#">
+              <img
+                src="assets/img/Logo.png"
+                alt="Logo"
+                width="100"
+                height="18"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <!-- Nav -->
+          <div class="col-1-sm col-7-lg">
+            <div
+              class="collapse navbar-collapse position-relative"
+              id="navbarSupportedContent"
+            >
+              <ul
+                class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute top-100 start-50 translate-middle"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tour</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Access -->
+          <div class="col-5-sm col-3-lg">
+            <button class="btnaccess">Login</button>
+            <button class="btnaccess">Sign up</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="container">
+      <div class="row">
+        <div class="col-5 banner">
+          <h1 class="banner-tittle">
+            Get started your exciting <span>journey</span> with us.
+          </h1>
+          <p class="banner-text">
+            A Team of experienced tourism professionals will provide you with
+            the best advice and tips for your desire place.
+          </p>
+          <button class="banner-discover">Discover Now</button>
+        </div>
+        <div class="col-7 mt-5">
+          <img src="assets/img/Man.jpg" class="img-fluid" alt="man" />
+        </div>
+      </div>
+
+      <!-- Location -->
+      <div class="row">
+        <div class="location">
+          <div class="col-3">
+            <span class="location-title">Location</span
+            ><i class="bi bi-chevron-down iconframe"></i>
+            <p class="location-text">Where are you going</p>
+          </div>
+          <div class="col-3">
+            <span class="location-title">Date</span
+            ><i class="bi bi-chevron-down iconframe"></i>
+            <p class="location-text">When you will go</p>
+          </div>
+          <div class="col-3">
+            <span class="location-title">Guest</span
+            ><i class="bi bi-chevron-down iconframe"></i>
+            <p class="location-text">Number of guest</p>
+          </div>
+          <div class="col-3">
+            <button class="location-explore">Explore Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Things -->
+    <div class="container">
+      <div class="row things">
+        <h1 class="things-tittle">Things you need <span>to do</span></h1>
+        <p class="things-subtittle">
+          We ensure that you'll embark on a perfectly planned, safe vacation at
+          a price you can afford.
+        </p>
+      </div>
+
+      <div class="row things-cards">
+        <div class="col-xs-12 col-sm-4 things-cards-single">
+          <img
+            src="./assets/img/things01.jpg"
+            class="things-cards-single-img"
+            alt="things01"
+          />
+          <h1 class="things-cards-single-tittle">Sign Up</h1>
+          <p class="things-cards-single-text">
+            Completes all the work associated with planning and processing
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-4 things-cards-single">
+          <img
+            src="./assets/img/things02.jpg"
+            class="things-cards-single-img"
+            alt="things02"
+          />
+          <h1 class="things-cards-single-tittle">Worth of Money</h1>
+          <p class="things-cards-single-text">
+            After successful access then book from exclusive deals & pricing
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-4 things-cards-single">
+          <img
+            src="./assets/img/things03.jpg"
+            class="things-cards-single-img"
+            alt="things03"
+          />
+          <h1 class="things-cards-single-tittle">Exciting Travel</h1>
+          <p class="things-cards-single-text">
+            Start and explore a wide range of exciting travel experience
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Exclusive -->
+    <div class="container">
+      <div class="row exclusive">
+        <h1 class="exclusive-tittle">
+          Exclusive <span>deals & discounts</span>
+        </h1>
+        <p class="exclusive-subtittle">
+          Discover our fantastic early booking discounts & start planning your
+          journey.
+        </p>
+      </div>
+
+      <div class="row exclusive-cards">
+        <div class="row row-cols-2 row-cols-md-4 g-2">
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/exlus01.jpg"
+                class="card-img-top exclusive-cards-img"
+                alt="exclusive01"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 exclusive-cards-p1">Madrid</div>
+                  <div class="col-4 exclusive-cards-p2">
+                    <i class="bi bi-star-fill"></i> 4.8
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 exclusive-cards-p3">
+                    <i class="bi bi-geo-alt-fill"></i> Spain
+                  </div>
+                  <div class="col-3 exclusive-cards-p4">$950</div>
+                  <div class="col-3 exclusive-cards-p5">$850</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/exlus02.jpg"
+                class="card-img-top exclusive-cards-img"
+                alt="exclusive02"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 exclusive-cards-p1">Firenze</div>
+                  <div class="col-4 exclusive-cards-p2">
+                    <i class="bi bi-star-fill"></i> 4.5
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 exclusive-cards-p3">
+                    <i class="bi bi-geo-alt-fill"></i> Italy
+                  </div>
+                  <div class="col-3 exclusive-cards-p4">$850</div>
+                  <div class="col-3 exclusive-cards-p5">$750</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/exlus03.jpg"
+                class="card-img-top exclusive-cards-img"
+                alt="exclusive03"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 exclusive-cards-p1">Paris</div>
+                  <div class="col-4 exclusive-cards-p2">
+                    <i class="bi bi-star-fill"></i> 4.4
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 exclusive-cards-p3">
+                    <i class="bi bi-geo-alt-fill"></i> France
+                  </div>
+                  <div class="col-3 exclusive-cards-p4">$699</div>
+                  <div class="col-3 exclusive-cards-p5">$599</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/exlus04.jpg"
+                class="card-img-top exclusive-cards-img"
+                alt="exclusive04"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 exclusive-cards-p1">London</div>
+                  <div class="col-4 exclusive-cards-p2">
+                    <i class="bi bi-star-fill"></i> 4.8
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 exclusive-cards-p3">
+                    <i class="bi bi-geo-alt-fill"></i> UK
+                  </div>
+                  <div class="col-3 exclusive-cards-p4">$850</div>
+                  <div class="col-3 exclusive-cards-p5">$850</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Best -->
+    <div class="container">
+      <div class="row best">
+        <h1 class="best-tittle">Best <span>vacation plan</span></h1>
+        <p class="best-subtittle">
+          Plan your vacation with our travel agency. Choose among hundreds of
+          all-inclusive offers!.
+        </p>
+      </div>
+
+      <div class="row best-cards">
+        <div class="row row-cols-2 row-cols-md-3 g-2">
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/best01.jpg"
+                class="card-img-top best-cards-img"
+                alt="best01"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 best-cards-p1">Rome, Italy</div>
+                  <div class="col-4 best-cards-p2">$5,42k</div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-8 best-cards-p3">
+                    <i class="bi bi-send-fill"></i> 10 Days Trip
+                  </div>
+                  <div class="col-4 best-cards-p4">
+                    <i class="bi bi-star-fill"></i> 4.8
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/best02.jpg"
+                class="card-img-top best-cards-img"
+                alt="best02"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 best-cards-p1">London, UK</div>
+                  <div class="col-4 best-cards-p2">$2,42k</div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-8 best-cards-p3">
+                    <i class="bi bi-send-fill"></i> 07 Days Trip
+                  </div>
+                  <div class="col-4 best-cards-p4">
+                    <i class="bi bi-star-fill"></i> 4.7
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/best03.jpg"
+                class="card-img-top best-cards-img"
+                alt="best03"
+              />
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8 best-cards-p1">Osaka, Japan</div>
+                  <div class="col-4 best-cards-p2">$5,42k</div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-8 best-cards-p3">
+                    <i class="bi bi-send-fill"></i> 10 Days Trip
+                  </div>
+                  <div class="col-4 best-cards-p4">
+                    <i class="bi bi-star-fill"></i> 4.8
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section People -->
+    <div class="container">
+      <div class="row people">
+        <div class="col-xs-12 col-sm-6">
+          <h1 class="people-tittle">What people say <span>about us.</span></h1>
+          <p class="people-subtittle">
+            Our clients send us bunch of smillies witch our services and we love
+            them.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <img src="./assets/img/people.jpg" class="people-img" alt="people" />
+          <p class="people-text">
+            "On the Windows talking painted pasture yet its express parties use.
+            Sure last upon he same as knew next. Of believed or diverted no."
+          </p>
+          <h1 class="people-name">Mike taylor</h1>
+          <h5 class="people-country">Lahore, Pakistan</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Get -->
+    <div class="container">
+      <div class="row get">
+        <h1 class="get-tittle">Get update with <span>latest blog</span></h1>
+      </div>
+
+      <div class="row get-cards">
+        <div class="row row-cols-2 row-cols-md-4 g-2">
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/get01.jpg"
+                class="card-img-top get-cards-img"
+                alt="get01"
+              />
+              <div class="card-body">
+                <p class="get-cards-text">
+                  The Amazing Difference a Year of Travelling.
+                </p>
+                <span class="get-cards-span">July 27, 2021</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/get02.jpg"
+                class="card-img-top get-cards-img"
+                alt="get02"
+              />
+              <div class="card-body">
+                <p class="get-cards-text">
+                  The Amazing Difference a Year of Travelling.
+                </p>
+                <span class="get-cards-span">July 27, 2021</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/get03.jpg"
+                class="card-img-top get-cards-img"
+                alt="get03"
+              />
+              <div class="card-body">
+                <p class="get-cards-text">
+                  The Amazing Difference a Year of Travelling.
+                </p>
+                <span class="get-cards-span">July 27, 2021</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/img/get04.jpg"
+                class="card-img-top get-cards-img"
+                alt="get04"
+              />
+              <div class="card-body">
+                <p class="get-cards-text">
+                  The Amazing Difference a Year of Travelling.
+                </p>
+                <span class="get-cards-span">July 27, 2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Subscribe -->
+    <div class="container">
+      <div class="row subscribe">
+        <h1 class="subscribe-tittle">
+          Subscribe and get exclusive deals & offer
+        </h1>
+        <div class="subscribe-wrap">
+          <div class="row">
+            <div class="col-10 subscribe-all">
+              <i class="bi bi-envelope"></i>
+              <input
+                type="text"
+                class="subscribe-input"
+                placeholder="Enter your mail"
+              />
+            </div>
+            <div class="col-2">
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+      <div class="row footer">
+        <div class="col-5 footer-main">
+          <img src="./assets/img/Logo.png" class="footer-main-img" alt="logo" />
+          <p class="footer-main-text">
+            Book your trip in minute, get full Control for much longer.
+          </p>
+          <div class="footer-main-social">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+          </div>
+        </div>
+        <div class="col-3 footer-company">
+          <h1>Company</h1>
+          <ul>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Logistic</li>
+            <li>Privacy & Policy</li>
+          </ul>
+        </div>
+        <div class="col-2 footer-contact">
+          <h1>Contact</h1>
+          <ul>
+            <li>Help/FAQ</li>
+            <li>Press</li>
+            <li>Affilates</li>
+          </ul>
+        </div>
+        <div class="col-2 footer-more">
+          <h1>More</h1>
+          <ul>
+            <li>Press Centre</li>
+            <li>Our Blog</li>
+            <li>Low fare tips</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col-6 copyright-left">
+          <h6>Copyright, Trabook 2022. All rights reserved.</h6>
+        </div>
+        <div class="col-6 copyright-right">
+          <h6>Terms & Conditions</h6>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
